@@ -1,10 +1,10 @@
-## Project Overview - Agent Shellton
+## Project Overview - Agent Shutton
 
 NOTE: This is a **sample submssion** for the [Kaggle Agents Intensive Capstone project](https://www.kaggle.com/competitions/agents-intensive-course-capstone-2025/). Use this as a point of reference for structuring your submission. Avoid simply copying and reusing logic and or concepts.
 
 NOTE: This sample submssion was inspired and lifted from the official [ADK-Samples](https://github.com/google/adk-samples/tree/main/python/agents/blog-writer) repository. Special thanks to Pier Paolo Ippolito for his contributions. 
 
-This project contains the core logic for Agent Shellton, a multi-agent system designed to assist users in creating various types of blog posts. The agent is built using Google Agent Development Kit (ADK) and follows a modular architecture.
+This project contains the core logic for Agent Shutton, a multi-agent system designed to assist users in creating various types of blog posts. The agent is built using Google Agent Development Kit (ADK) and follows a modular architecture.
 
 ![Architecture](./thumbnail.png "Optional Title")
 
@@ -17,7 +17,7 @@ Writing blogs manually is laborious because it requires significant time investm
 Agents can automatically research topics by gathering information from multiple sources, synthesizing key insights, and identifying trending themes relevant to your target audience. They can generate initial draft outlines or full articles based on specific parameters like tone, length, significantly reducing the time spent on the blank page problem. Additionally, agents can manage the entire publishing workflow by scheduling posts, distributing content across multiple platforms, monitoring performance metrics, and even suggesting improvements based on engagement data—transforming blog management from a manual chore into a streamlined, data-driven process.
 
 ### Architecture
-Core to Agent Shellton is the `blogger_agent` -- a prime example of a multi-agent system. It's not a monolithic application but an ecosystem of specialized agents, each contributing to a different stage of the blog creation process. This modular approach, facilitated by Google's Agent Development Kit, allows for a sophisticated and robust workflow. The central orchestrator of this system is the `interactive_blogger_agent`.
+Core to Agent Shutton is the `blogger_agent` -- a prime example of a multi-agent system. It's not a monolithic application but an ecosystem of specialized agents, each contributing to a different stage of the blog creation process. This modular approach, facilitated by Google's Agent Development Kit, allows for a sophisticated and robust workflow. The central orchestrator of this system is the `interactive_blogger_agent`.
 
 ![Architecture](./flow_adk_web.png "Optional Title")
 
@@ -65,7 +65,7 @@ The `blogger_agent` is a compelling demonstration of how multi-agent systems, bu
 
 ### Value Statement
 
-Agent Shellton reduced my blog development time by 6-8 hours per week, enabling me to produce more content at higher quality. I have also been producing blogs across new domains - as the agent drives research that I'd otherwise not be able to do given time constraints and subject matter expertise.
+Agent Shutton reduced my blog development time by 6-8 hours per week, enabling me to produce more content at higher quality. I have also been producing blogs across new domains - as the agent drives research that I'd otherwise not be able to do given time constraints and subject matter expertise.
 
 If I had more time I would add an additional agent to scan various sites for trending topics and use that research to inform my blog topics. This would require integrating applicable MCP servers or building custom tools. 
 
