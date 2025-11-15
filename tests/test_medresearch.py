@@ -15,6 +15,8 @@
 """Integration tests for MedResearch AI."""
 
 import pytest
+import asyncio
+from datetime import datetime
 from medresearch_agent.tools.medical_tools import (
     search_pubmed,
     validate_medical_terminology,
