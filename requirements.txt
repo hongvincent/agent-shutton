@@ -1,8 +1,37 @@
+# Core Agent Framework
 google-adk==1.18.0
-pytest==8.4.2
-pytest-asyncio==1.2.0
-deprecated
+
+# API & Deployment (let pip resolve compatible versions with google-adk)
+fastapi
+uvicorn[standard]>=0.34.0
+pydantic
+httpx
+
+# Observability & Monitoring (versions must match google-adk requirements)
+opentelemetry-api==1.37.0
+opentelemetry-sdk==1.37.0
+opentelemetry-instrumentation-fastapi
+
+# Data Processing
 pandas
-tabulate
+numpy
+
+# Medical/Scientific Libraries
+biopython  # For PubMed/biomedical data
+
+# Testing
+pytest
+pytest-asyncio
+pytest-cov
+
+# Utilities
+python-dotenv
 tqdm
+tabulate
+
+# ML/Evaluation
 scikit-learn
+
+# Development
+black
+ruff
