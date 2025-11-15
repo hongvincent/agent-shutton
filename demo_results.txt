@@ -1,0 +1,76 @@
+====================================================================================================
+ MedResearch AI - 종합 기능 검증 데모 결과
+====================================================================================================
+
+실행 시간: 2025-11-15 08:42:14
+
+✅ Google ADK Import: PASSED
+   version 1.18.0
+✅ FastAPI Import: PASSED
+   version 0.121.2
+✅ BioPython Import: PASSED
+✅ Main Agent Import: PASSED
+   Agent name: med_research_coordinator
+✅ Config Import: PASSED
+   Model: gemini-2.0-flash-exp
+✅ Sub-Agents Import: PASSED
+   6 sub-agents loaded
+✅ Medical Tools Import: PASSED
+   6 tools imported
+✅ Medical Terminology Validation: PASSED
+   Found 8 medical terms
+✅ Evidence Quality Calculation: PASSED
+   Score: 7.92/10, Rating: Moderate Quality
+✅ Memory Bank - Store: PASSED
+   Stored memory: demo_diabetes_2025
+✅ Memory Bank - Retrieve: PASSED
+   Retrieved: Latest diabetes treatments and medications
+✅ Memory Bank - Search: PASSED
+   Found 1 memories
+✅ Memory Bank - Summary: PASSED
+   Total: 1, Avg quality: 8.5
+✅ A2A Protocol - Send Request: PASSED
+   Message ID: 4eaea92f...
+✅ A2A Protocol - Receive Message: PASSED
+   From: coordinator to literature_searcher
+✅ A2A Protocol - Send Results: PASSED
+✅ A2A Protocol - Status Update: PASSED
+✅ A2A Protocol - Statistics: PASSED
+   Total messages: 3
+✅ SessionManager - Create: PASSED
+   Session: demo_session_001, Status: running
+✅ SessionManager - Update Progress: PASSED
+   Stage: searching
+✅ SessionManager - Pause: PASSED
+   Status: paused
+✅ SessionManager - Resume: PASSED
+   Status: running
+✅ SessionManager - Complete: PASSED
+   Status: completed
+✅ SessionManager - Statistics: PASSED
+   Total sessions: 1
+✅ Observability - Logger: PASSED
+   Logger initialized
+✅ Observability - Metrics: PASSED
+   Total sessions: 1
+✅ Observability - Tracer: PASSED
+   Tracer initialized
+✅ Evaluation - Citation Validator: PASSED
+   AMA format validation
+✅ Evaluation - Medical Accuracy: PASSED
+   Terms found: 10
+✅ Evaluation - Evidence Quality: PASSED
+✅ Evaluation - Completeness: PASSED
+   Score: 0.44
+✅ Evaluation - Overall Score: PASSED
+   Score: 43.6/100
+✅ API App Import: PASSED
+   Title: MedResearch AI API, Version: 1.0.0
+✅ API Routes: PASSED
+   13 routes defined
+
+====================================================================================================
+총 테스트: 34
+✅ 통과: 34
+❌ 실패: 0
+성공률: 100.0%
