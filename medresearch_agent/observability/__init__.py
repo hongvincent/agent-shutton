@@ -15,7 +15,7 @@
 """Observability components for MedResearch AI."""
 
 from .logger import MedResearchLogger, get_logger
-from .metrics import ResearchMetrics, MetricsTracker
+from .metrics import ResearchMetrics, MetricsTracker, get_metrics_tracker
 from .tracer import setup_tracing, get_tracer
 
 __all__ = [
@@ -23,6 +23,7 @@ __all__ = [
     "get_logger",
     "ResearchMetrics",
     "MetricsTracker",
+    "get_metrics_tracker",
     "setup_tracing",
     "get_tracer",
 ]

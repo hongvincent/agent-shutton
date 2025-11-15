@@ -14,15 +14,18 @@
 
 """Utility functions for MedResearch AI."""
 
-from .memory_bank import ResearchMemoryBank, create_memory_bank
+from .memory_bank import ResearchMemoryBank, ResearchMemory, create_memory_bank
 from .session_manager import SessionManager, ResearchSession
-from .a2a_protocol import ResearchCoordinationProtocol, A2AMessage
+from .a2a_protocol import ResearchCoordinationProtocol, A2AMessage, MessageType, MessagePriority
 
 __all__ = [
     "ResearchMemoryBank",
+    "ResearchMemory",
     "create_memory_bank",
     "SessionManager",
     "ResearchSession",
     "ResearchCoordinationProtocol",
     "A2AMessage",
+    "MessageType",
+    "MessagePriority",
 ]

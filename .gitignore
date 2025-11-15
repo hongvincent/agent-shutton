@@ -197,3 +197,7 @@ my_env.tfvars
 .saved_chats
 .env
 .requirements.txt
+
+# MedResearch AI generated data
+memory_bank/
+research_sessions/
